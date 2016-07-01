@@ -96,7 +96,7 @@
     </header>
 
     <!-- Table -->
-    <section class="container">
+    <%# <section class="container">
       <table class="contact-entries table table-striped">
         <thead>
           <tr>
@@ -107,16 +107,11 @@
         </thead>
         <tbody>
           <% for (row in entries) { %>
-            <tr>
-              <td><%= entries[row]._id %></td>
-              <td><%= entries[row].email %></td>
-              <td><%= entries[row].message %></td>
-            </tr>
-          <% } %>
-        </tbody>
+
+        <%# </tbody>
       </table>
 
-    </section>
+    </section>%>
 
     <!-- Services Section -->
     <section id="services">
@@ -435,13 +430,13 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
+                        <%# <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>%>
                         <li><a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a>
+                        <li><a href="instagram.com/henry.morales"><i class="fa fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
