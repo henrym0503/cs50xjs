@@ -1,0 +1,80 @@
+.navbar-brand {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.header {
+  background: #000;
+  background-image: url('../images/header-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  min-height: 600px;
+  padding-top: 100px;
+}
+
+.header .heading {
+  margin-top: 0;
+  font-size: 40px;
+  line-height: 40px;
+  font-style: italic;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header .subheading {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 75px;
+  margin: 30px 0;
+}
+
+.header .btn {
+  background: #fed136;
+  border-color: #fed136;
+  color: #fff;
+  border-radius: 2px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+
+.header .btn:hover {
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+
+.nav a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav a:hover {
+  background-color: rgba(255,255,255,0.1) !important;
+}
+
+.navbar-brand {
+  color: #fed136;
+}
+
+.navbar-bg {
+  background: #111;
+}
+
+.services .title {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 30px;
+}
+
+.services .subheading {
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+.services .glyphicon {
+  font-size: 100px;
+}
