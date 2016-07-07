@@ -1,7 +1,7 @@
 var mongoose =  require('mongoose')
 var mongoDB = mongoose.connection
 
-mongoose.connect('mongodb://localhost/sexy')
+mongoose.connect('mongodb://107.170.97.24/sexy')
 
 mongoDB.on('error', console.error.bind(console, 'error'))
 
